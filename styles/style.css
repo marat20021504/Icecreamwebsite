@@ -95,4 +95,111 @@
     display: none;
   }
 }
+
+.section-2 {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 100px;
+}
+
+.section-2 .section-2-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-2 .section-2-text h1 {
+  font-size: 35px;
+  color: #101010;
+  font-weight: bold;
+}
+
+.section-2 .section-2-text p {
+  color: #101010;
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.section-2 .section-2-contanier {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section-2 .section-2-contanier .box-con {
+  width: 335px;
+  height: 360px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 1px 82px 123px -10px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 82px 123px -10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+}
+
+.section-2 .section-2-contanier .box-con img {
+  position: relative;
+  top: -100px;
+  left: -20px;
+}
+
+.section-2 .section-2-contanier .box-con h2 {
+  position: relative;
+  top: -90px;
+  font-size: 28px;
+}
+
+.section-2 .section-2-contanier .box-con h2 span {
+  color: #CF5979;
+}
+
+@media (max-width: 600px) {
+  .section-2 {
+    padding: 20px;
+    height: auto;
+  }
+  .section-2 .section-2-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .section-2 .section-2-text h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .section-2 .section-2-text p {
+    font-size: 25pxpx;
+    text-align: center;
+  }
+  .section-2 .section-2-contanier {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
+  .section-2 .section-2-contanier .box-con {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */
