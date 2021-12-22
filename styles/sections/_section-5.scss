@@ -1,0 +1,40 @@
+.section-5 {
+    width: 100%;
+    height: auto;
+    background: #101010;
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .section-5-text {
+        display: flex;
+        gap: 40px;
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+
+            &:hover {
+                color: blue;
+            }
+
+        }
+
+    }
+
+}
+
+@media (max-width: 600px) {
+    .section-5 {
+        padding: 20px;
+        flex-direction: column;
+        gap: 20px;
+
+        .section-5-text {
+            gap: 15px;
+        }
+
+    }
+}
